@@ -8,6 +8,7 @@ public class GameEngine {
     private boolean gameWon;
     private boolean gameOver;
     private boolean userQuit;
+    private boolean hintsEnabled;
 
     public GameEngine(int min, int max) {
         this.min = min;
@@ -16,6 +17,7 @@ public class GameEngine {
         this.gameWon = false;
         this.gameOver = false;
         this.userQuit = false;
+        this.hintsEnabled = true;
         reset();
     }
 
